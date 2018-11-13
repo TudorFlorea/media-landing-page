@@ -317,9 +317,16 @@ nav {
     height: auto;
 }
 
+#contact-cards-wrapper {
+    text-align: center;
+    margin: 0 auto;
+}
+
 .contact-card {
     display: inline-block;
-    width: 30%;
+    width: 33%;
+    text-align: left;
+    font-family: sans-serif;
 }
 
 .contact-img {
@@ -330,5 +337,20 @@ nav {
 
 .contact-info {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
+    color: white;
+    padding-top: 20px;
+}
+
+.contact-info p {
+    padding-top: 10px;
+    color: #888;
+}
+
+#copyright {
+    background-color: #222129;
+    color: #888;
+    text-align: center;
+    padding: 30px;
+    font-family: sans-serif;
 }
