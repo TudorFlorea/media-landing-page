@@ -38,7 +38,7 @@ html, body {
     display: inline-block;
     color: white;
     font-family: sans-serif;
-    width: 150px;
+    width: 100px;
     height: auto;
     margin-top: 40px;
 }
@@ -59,8 +59,9 @@ nav {
     padding: 35px;
 }
 
-.nav-item:hover {
-    background-color: #5b429d;
+#nav-list .nav-item:hover {
+    background-color: white;
+    color: #5b429d;
 }
 
 #head-text {
@@ -77,9 +78,9 @@ nav {
 
 #head-text p {
     color: white;
-    font-family: serif;
+    font-family: sans-serif;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -152,6 +153,12 @@ nav {
     border-radius: 40px;
 }
 
+#request-quote:hover {
+    color: #1da7ff;
+    border: 2px solid #1da7ff;
+    background-color: white;
+}
+
 #learn-more {
     padding: 20px 40px;
     margin-right: 40px;
@@ -162,6 +169,12 @@ nav {
     color: #1da7ff;
     border: 2px solid #1da7ff;
     border-radius: 40px;
+}
+
+#learn-more:hover {
+    background-color: #1da7ff;
+    border: none;
+    color: white;
 }
 
 /****************************
@@ -190,13 +203,13 @@ nav {
 }
 
 .project-text {
-    font-size: 20px;
+    font-size: 30px;
     font-family: sans-serif;
     color: white;
 }
 
 .project-underline {
-    width: 80%;
+    width: 40%;
     height: 2px;
     background-color: #1da7ff;
     margin: 10px auto;
@@ -222,6 +235,7 @@ nav {
     width: 19.6%;
     display: inline-block;
     margin: 0 auto;
+    vertical-align: middle;
 }
 
 /****************************
@@ -254,7 +268,7 @@ nav {
     display: inline-block;
     margin-right: -4px;
     border-radius: 25px 0px 0px 25px;
-    padding: 20px 25px;
+    padding: 19.8px 25px;
     width: 50%;
     vertical-align: bottom;
 }
@@ -273,6 +287,7 @@ nav {
     padding: 15px 25px;
     width: 25%;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 /****************************
@@ -317,6 +332,10 @@ nav {
     height: auto;
 }
 
+.social-item:hover {
+    background: #555;
+}
+
 #contact-cards-wrapper {
     text-align: center;
     margin: 0 auto;
@@ -327,6 +346,10 @@ nav {
     width: 33%;
     text-align: left;
     font-family: sans-serif;
+}
+
+.contact-card:hover {
+    background: #555;
 }
 
 .contact-img {
@@ -342,9 +365,11 @@ nav {
     padding-top: 20px;
 }
 
-.contact-info p {
+.contact-info p a{
     padding-top: 10px;
     color: #888;
+    text-decoration: none;
+    display: inline-block;
 }
 
 #copyright {
