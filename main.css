@@ -1,0 +1,334 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.fixed-wrapper {
+    display: table;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+}
+
+#head-wrapper {
+    background-color: #5b429d;
+    background-image: url("./media/laptop.jpg");
+    background-size:     cover; 
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+#head-overlay {
+    background-color: #5b429d;
+    opacity: 0.8;
+}
+
+#logo {
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+}
+
+nav {
+    float: right;
+}
+
+#nav-list {
+    list-style: none;
+}
+
+.nav-item {
+    color: white;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 35px;
+}
+
+.nav-item:hover {
+    background-color: #5b429d;
+}
+
+#head-text {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#head-text h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+#head-text p {
+    color: white;
+    font-family: serif;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+/****************************
+** Our features
+****************************/
+
+#our-features-wrapper h2 {
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.small-underline {
+    width: 40%;
+    height: 5px;
+    background-color: #5b429d;
+    margin: 10px auto;
+}
+
+#feature-cards-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.feature-card {
+    display: inline-block;
+    width: 24%;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+}
+
+.feature-image {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.feature-text {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+    color: #333;
+}
+
+#feature-links-wrapper {
+    margin: 50px auto;
+    text-align: center;
+}
+
+#feature-links-wrapper a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#request-quote {
+    background-color: #1da7ff;
+    padding: 20px 40px;
+    margin-right: 40px;
+    height: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border-radius: 40px;
+}
+
+#learn-more {
+    padding: 20px 40px;
+    margin-right: 40px;
+    height: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1da7ff;
+    border: 2px solid #1da7ff;
+    border-radius: 40px;
+}
+
+/****************************
+** Projects
+****************************/
+
+#projects-wrapper {
+    background-color: #5b429d;
+}
+
+#project-cards-wrapper {
+    margin-bottom: 80px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.project-card {
+    display: inline-block;
+    width: 30%;
+}
+
+.project-number {
+    font-size: 60px;
+    font-family: sans-serif;
+    color: #8976b8;
+}
+
+.project-text {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.project-underline {
+    width: 80%;
+    height: 2px;
+    background-color: #1da7ff;
+    margin: 10px auto;
+}
+
+/****************************
+** Our clients
+****************************/
+
+#our-clients-wrapper h2 {
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#our-clients-wrapper {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.our-clients-image {
+    width: 19.6%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/****************************
+** Newsletter
+****************************/
+
+#newsletter-wrapper {
+    background-color: #5b429d;
+}
+
+#newsletter-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#newsletter-content h2 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#email-input-wrapper {
+    margin: 30px auto;
+    text-align: center;
+}
+
+#email {
+    border: none;
+    display: inline-block;
+    margin-right: -4px;
+    border-radius: 25px 0px 0px 25px;
+    padding: 20px 25px;
+    width: 50%;
+    vertical-align: bottom;
+}
+
+#subscribe {
+    border: none;
+    background-color: #1da7ff;
+    color: white;
+    line-height: 25px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: -10px;
+    border-radius: 0px 25px 25px 0px;
+    padding: 15px 25px;
+    width: 25%;
+    vertical-align: middle;
+}
+
+/****************************
+** Footer
+****************************/
+
+#footer-wrapper {
+    background-color: #28272f;
+}
+
+#bottom-logo {
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+    width: 100px;
+    height: auto;
+    margin-top: 40px;
+}
+
+#social {
+    margin-bottom: 55px;
+    padding-bottom: 35px;
+    border-bottom: 2px solid #555;
+}
+
+#social-list {
+    list-style: none;
+    float: right;
+}
+
+.social-item {
+    color: white;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 35px;
+
+}
+
+.social-item img {
+    width: 30px;
+    height: auto;
+}
+
+.contact-card {
+    display: inline-block;
+    width: 30%;
+}
+
+.contact-img {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+}
+
+.contact-info {
+    display: inline-block;
+    vertical-align: middle;
+}
