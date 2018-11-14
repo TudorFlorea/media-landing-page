@@ -1,3 +1,17 @@
+/****************************
+** Table of contents
+** 
+** 1. Our features
+** 2. Projects
+** 3. Our clients
+** 4. Newsletter
+** 5. Footer
+** 6. Media querys
+**
+****************************/
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -41,6 +55,7 @@ html, body {
     width: 100px;
     height: auto;
     margin-top: 40px;
+    margin-left: 20px;
 }
 
 nav {
@@ -85,7 +100,7 @@ nav {
 
 
 /****************************
-** Our features
+** 1. Our features
 ****************************/
 
 #our-features-wrapper h2 {
@@ -129,6 +144,7 @@ nav {
     font-size: 30px;
     padding: 20px;
     color: #333;
+    vertical-align: middle;
 }
 
 #feature-links-wrapper {
@@ -178,7 +194,7 @@ nav {
 }
 
 /****************************
-** Projects
+** 2. Projects
 ****************************/
 
 #projects-wrapper {
@@ -216,7 +232,7 @@ nav {
 }
 
 /****************************
-** Our clients
+** 3. Our clients
 ****************************/
 
 #our-clients-wrapper h2 {
@@ -239,7 +255,7 @@ nav {
 }
 
 /****************************
-** Newsletter
+** 4. Newsletter
 ****************************/
 
 #newsletter-wrapper {
@@ -291,7 +307,7 @@ nav {
 }
 
 /****************************
-** Footer
+** 5. Footer
 ****************************/
 
 #footer-wrapper {
@@ -305,6 +321,7 @@ nav {
     width: 100px;
     height: auto;
     margin-top: 40px;
+    margin-left: 20px;
 }
 
 #social {
@@ -379,3 +396,82 @@ nav {
     padding: 30px;
     font-family: sans-serif;
 }
+
+/****************************
+** 6. Media querys
+****************************/
+
+@media screen and (min-width: 670px) and (max-width: 880px)  {
+    .feature-card {
+        width: 49.5%;
+    }
+
+    .our-clients-image {
+        width: 40%;
+    }
+
+    .our-clients-image:last-child {
+        display: none;
+    }
+
+    .contact-card {
+        width: 100%;
+        padding: 3%;
+    }
+
+    .contact-card:hover {
+        background-color: #28272f;
+    }
+
+    .contact-card h3 {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .contact-card p {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    .feature-card {
+        width: 100%;
+    }
+
+    .our-clients-image {
+        width: 80%;
+    }
+
+    .contact-card {
+        width: 100%;
+        padding: 3%;
+    }
+
+    .contact-card h3 {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .contact-card p {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .contact-card:hover {
+        background-color: #28272f;
+    }
+
+    #feature-links-wrapper a{
+        display: block;
+        text-decoration: none;
+        margin: 80px 0px;
+    }
+
+    .project-card {
+        width: 100%;
+        padding: 30px;
+    }
+}
+  
