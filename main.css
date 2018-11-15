@@ -287,6 +287,7 @@ nav {
     padding: 19.8px 25px;
     width: 50%;
     vertical-align: bottom;
+    outline: none;
 }
 
 #subscribe {
@@ -304,6 +305,7 @@ nav {
     width: 25%;
     vertical-align: middle;
     cursor: pointer;
+    outline: none;
 }
 
 /****************************
@@ -414,15 +416,27 @@ nav {
         display: none;
     }
 
+/*
     .contact-card {
-        width: 100%;
+        width: 100%%;
         padding: 3%;
     }
-
+*/
+    .contact-img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .contact-card {
+        text-align: center;
+        padding-bottom: 20px;
+        width: 32%;
+    }
     .contact-card:hover {
         background-color: #28272f;
     }
 
+/*
     .contact-card h3 {
         font-size: 40px;
         padding: 10px;
@@ -432,10 +446,29 @@ nav {
         font-size: 25px;
         padding: 10px;
     }
+*/
+    
+    .contact-header {
+        font-size: 1.4rem;
+        text-align: center;
+    }
 
 }
 
 @media screen and (max-width: 670px) {
+    
+    #logo {
+        display: block;
+        margin: 40px auto;
+    }
+    
+    #nav {
+        display: block;
+        margin: 0px auto;
+        float: none;
+        text-align: center;
+    }
+    
     .feature-card {
         width: 100%;
     }
@@ -462,6 +495,13 @@ nav {
     .contact-card:hover {
         background-color: #28272f;
     }
+    
+    #email,
+    #subscribe {
+        display: block;
+        border-radius: 25px;
+        margin: 20px auto;
+    }
 
     #feature-links-wrapper a{
         display: block;
@@ -472,6 +512,18 @@ nav {
     .project-card {
         width: 100%;
         padding: 30px;
+    }
+    
+    #bottom-logo {
+        display: block;
+        margin: 40px auto;
+    }
+    
+    #social-list {
+        display: block;
+        margin: 40px auto;
+        text-align: center;
+        float: none;
     }
 }
   
