@@ -160,13 +160,14 @@ nav {
 #request-quote {
     background-color: #1da7ff;
     padding: 20px 40px;
-    margin-right: 40px;
+    margin-right: 0px auto;
     height: 30px;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 30px;
     color: white;
     border-radius: 40px;
+
 }
 
 #request-quote:hover {
@@ -177,7 +178,7 @@ nav {
 
 #learn-more {
     padding: 20px 40px;
-    margin-right: 40px;
+    margin: 0px auto;
     height: 30px;
     font-family: sans-serif;
     font-weight: bold;
@@ -403,17 +404,13 @@ nav {
 ** 6. Media querys
 ****************************/
 
-@media screen and (min-width: 670px) and (max-width: 880px)  {
+@media screen and (max-width: 880px)  {
     .feature-card {
         width: 49.5%;
     }
 
     .our-clients-image {
         width: 40%;
-    }
-
-    .our-clients-image:last-child {
-        display: none;
     }
 
 /*
@@ -447,6 +444,9 @@ nav {
         padding: 10px;
     }
 */
+    #newsletter-content h2 {
+        padding: 20px 5%;
+    }
     
     .contact-header {
         font-size: 1.4rem;
@@ -470,11 +470,13 @@ nav {
     }
     
     .feature-card {
-        width: 100%;
+        display: block;
+        margin: 20px auto;
+        width: 70%;
     }
 
     .our-clients-image {
-        width: 80%;
+        width: 70%;
     }
 
     .contact-card {
@@ -501,6 +503,7 @@ nav {
         display: block;
         border-radius: 25px;
         margin: 20px auto;
+        width: 70%;
     }
 
     #feature-links-wrapper a{
